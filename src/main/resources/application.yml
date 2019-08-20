@@ -1,0 +1,12 @@
+spring:
+    mail:
+       host: smtp.office365.com
+       port: 587
+       username: cristal.flores@fundacion-jala.org
+       password: Incognito123
+       properties.mail:
+                        debug: true
+                        smtp:
+                            auth: true
+                            starttls.enable: true
+                            ssl.trust: smtp.office365.com
